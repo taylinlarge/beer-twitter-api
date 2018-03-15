@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-image: url(../img/backgroundimage.jpg);
+	background-size: cover;
+	background-position: center;
+	// background-repeat: no-repeat;
+	overflow: hidden;
+
+	@media screen and (max-width: 768px) {
+		overflow: visible;
+	}
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+
+	.header {
+		h1 {
+			font-family: 'Open Sans';
+			font-size: 3rem;
+			color: white;
+		}
+	}
+
+	.form {
+		z-index: 3;
+
+		.input-field {
+			margin-bottom: 25px;
+		}
+	}
+
+	.img-container {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 1;
+
+		.single-img {
+			position: absolute;
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		.bottle {
+		    bottom: 10px;
+		    left: 53%;
+		    transform: rotate(15deg);
+		    width: 5%;
+		}
+
+		.can {
+			bottom: 20px;
+			left: 42%;
+			transform: rotate(-15deg);
+			width: 7%;
+		}
+		.hops {
+			bottom: 30%;
+			left: 42%;
+			width: 6%;
+			transform: rotate(-45deg);
+		}
+		.large-bird {
+			top: 18%;
+			left: 52%;
+		}
+		.medium-bird {
+			top: 12%;
+			left: 40%;
+		}
+		.opener {
+			bottom: 24%;
+			left: 48%;
+			width: 10%;
+			transform: rotate(-25deg);
+		}
+		.small-bird {
+			top: 21%;
+			left: 45%;
+		}
+	}
+}

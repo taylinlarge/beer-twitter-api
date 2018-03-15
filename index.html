@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Beer Heaven</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		
+		<link rel="stylesheet" href="dist/css/reset.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="dist/css/main.css">
+	</head>
+	<body>
+
+		<div class="wrapper">
+
+			<div class="header w-90">
+				<h1 class="col-sm-12 text-center">Beer Heaven!</h1>
+			</div>
+
+			<form action="search" class="form">
+				<div class="row input-field">
+					<input type="text" class="text-center input-1 form-control form-control-lg" placeholder="FIND YOUR BEER OR BREWERY!">
+				</div>
+				<div class="row justify-content-between selection">
+					<select name="select-box" class="col-sm-5 form-control form-control-lg custom-select custom-select-lg mb-3" id="select-box">
+						<!-- <option>All</option> -->
+						<option value="beer" selected>Beers</option>
+						<option value="brewery">Breweries</option>
+						<!-- <option value="guild">Guilds</option> -->
+					</select>
+					<div class="submit-button">
+						<button type="submit" class="button-1 btn btn-primary btn-lg">Search!</button>
+					</div>
+				</div>
+			</form>
+			<div class="content row justify-content-between">
+				<section class="search-info col-sm-12 col-md-5">
+						<div class="search-results"></div>
+					<div class="brew-info">
+						<div class="search-img"></div>
+						<div class="search-specs"></div>
+					</div>
+				</section>
+				<div class="back-button">
+					<button type='submit' class="button btn btn-danger">Back</button>
+				</div>
+				<section class="twitter-module col-sm-12 col-md-5"></section>
+			</div>
+			<div class="img-container">
+				<div class="bottle single-img">
+					<img src="dist/img/Bottle.png" alt="">
+				</div>
+				<div class="can single-img">
+					<img src="dist/img/can.png" alt="">
+				</div>
+				<div class="hops single-img">
+					<img src="dist/img/hops.png" alt="">
+				</div>
+				<div class="large-bird single-img">
+					<img src="dist/img/largebird.png" alt="">
+				</div>
+				<div class="medium-bird single-img">
+					<img src="dist/img/mediumbird.png" alt="">
+				</div>
+				<div class="opener single-img">
+					<img src="dist/img/opener.png" alt="">
+				</div>
+				<div class="small-bird single-img">
+					<img src="dist/img/smallbird.png" alt="">
+				</div>
+			</div>
+		</div>
+
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+		<script src="dist/js/SplitText.js"></script>
+		<script src="dist/js/app.js"></script>
+	</body>
+</html>
