@@ -1,7 +1,7 @@
 {
-  "name": "circus-starter",
+  "name": "Beer Heaven",
   "version": "1.2.3",
-  "description": "A good starting point for new Circus students",
+  "description": "A beer twitter combo app",
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
@@ -22,13 +22,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrissilich/circus-starter.git"
+    "url": "git+https://github.com/taylinlarge/beer-twitter-api"
   },
-  "author": "Chris Silich",
-  "license": "MIT",
+  "author": "Taylin Large",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/chrissilich/circus-starter/issues"
+    "url": "https://github.com/taylinlarge"
   },
-  "homepage": "https://github.com/chrissilich/circus-starter#readme",
+  "homepage": "https://github.com/taylinlarge",
   "babel": {}
 }
